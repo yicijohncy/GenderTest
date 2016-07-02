@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.index_cover{
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test1_start_bg.png)no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height:100%;
+	position:absolute;
+}
+.index_title{
+	background: url(images/1-content@2x.png)no-repeat;
+	background-size: 100% 100%;
+	width: 68.61%;
+	height: 28.125%;
+	margin: 0 auto;
+	margin-top: 30.9%;
+	position:relative;
+}
+.index_button{
+	display: -webkit-flex;
+	display:flex;
+	width:100%;
+	height:auto;
+	flex-direction:row;
+	justify-content:space-around;
+	margin-top: 140px;
+}
+.index_to_girl,.index_to_boy{
+	width:39.87% ;
+	height:37px;
+	float: left;
+	margin:0;
+}
+.index_to_girl{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn-girl-continu-nor%402x.png)no-repeat;
+	background-size: 100% 100%;
+}
+.index_to_boy{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn-boy-continu-nor%402x.png)no-repeat;
+	background-size: 100% 100%;
+}
+/*题目*/
+.multiple_choices{
+	width:100%;
+	height:100%;
+}
+.gril_bg{
+    background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testRectangle1.png)no-repeat;
+    background-size: 100% 100%;
+}
+.boy_bg{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test2_game_bg.png)no-repeat;
+	background-size: 100% 100%;
+}
+.title_bg{
+	width:100%;
+	height:41.8%;
+}
+.sequence,.question{
+	font-size: 130%;
+	color:#ffffff;
+}
+.sequence{
+	position:relative;
+	font-size: 130%;
+	color:#ffffff;
+	float:left;
+	padding-top:33px;
+	padding-left: 40px;
+}
+.question{
+	position: relative;
+	padding: 63px 40px;
+	margin:0 auto;
+}
+.button_gril_normal{
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn_girl_continu_nor.png) no-repeat;
+	background-size: 100% 100%;
+}
+.button_boy_normal{
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn_boy_continu_nor.png) no-repeat;
+	background-size: 100% 100%;
+}
+.button_girl_tap{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn_girl_continu_pres.png)no-repeat;
+	background-size: 100% 100%;
+}
+.button_boy_tap{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn_boy_continu_pres.png)no-repeat;
+	background-size: 100% 100%;
+}
+.ans_btn p{
+	color: #ffffff;
+	font-size: 140%;
+	width:100%;
+	height: 78px;
+	margin-bottom: 3.64%;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	align-items:center;
+}
+.ans_btn{
+	width: 79.34666%;
+	height: 78px;
+	margin: 0 auto; 
+	margin-bottom: 3.64%;
+	padding: 0;
+	border: 0;
+	display:flex;
+}
+.result_bg{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test3_result_bg.png)no-repeat;
+	width:100%;
+	height:100%;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	position: absolute;
+	z-index:1001;
+}
+.result_title{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test3_result_txt.png)no-repeat;
+	background-size: 80% 80%;
+	width:74.7%;
+	height:6.25%;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.reuslt_character{
+	padding-left: 25px;
+	margin-top: -9px;
+	position:absolute;
+}
+.result_dialog{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test3_content_bg.png)no-repeat;
+	background-size: 100% 100%;
+	width:83.57%;
+	height:27.5%;
+    left: 50%;
+    margin-left: -134px;
+	position:relative;
+	margin-top: -20px;
+	display:flex;
+	align-items:center;
+}
+#dialog_text{
+	margin: 0 auto;
+	width: 69%;
+	height: 53.18%;
+}
+.result_word{
+	width: 67.47%;
+    height: 18.75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/*男人物一*/
+.per_boy1{
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testboy_pic1.png)no-repeat;
+	background-size: 100% 100%;
+	width: 	77.33%;
+	height: 22.3%;
+	margin-top:9px;
+	margin: 0 auto;
+}
+/*男人物二*/
+.per_boy2{
+	/*<img src="./images/boy_pic2.png" width="317px" height="183px">*/
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testboy_pic2.png)no-repeat;
+	background-size: 100% 100%;
+	width: 84.5333%;
+	height:  27.23%;
+	margin-top:9px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 77777;
+}
+/*男人物三*/
+.per_boy3{
+	/*<img src="./images/boy_pic3.png" width="209px" height="198px">*/
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testboy_pic3.png)no-repeat;
+	background-size: 100% 100%;
+	width: 	55.7333%;
+	height:  29.5%;
+	margin-top:9px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 77777;
+}
+
+/*女人物一*/
+.per_girl1{
+/*<img src="./images/girl_pic1.png"  width="91.65%" height="30%">*/
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testgirl_pic1.png)no-repeat;
+	background-size: 100% 100%;
+	width: 	90.4%;
+	height:  29.17%;
+	margin-top:9px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 77777;
+}
+
+/*女人物二*/
+.per_girl2{
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testgirl_pic2.png)no-repeat;
+	background-size: 100% 100%;
+	width: 65.6%;
+	height:  28.01%;
+	margin-top:9px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 77777;
+}
+/*女人物三*/
+.per_girl3{
+	/*<img src="./images/girl_pic3.png" width="91.65%" height="30%">*/
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testgirl_pic3.png)no-repeat;
+	background-size: 100% 100%;
+	width: 91.653%;
+	height:  27.23%;
+	margin-top:9px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 77777;
+}
+.button_share{
+	background:url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_testbtn_share_nor.png)no-repeat;
+	background-size: 100% 100%;
+	height: 6%;
+    width: 46.4%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.button_share p{
+	color: #ffffff;
+	font-size: 140%;
+	position: relative;
+	margin: 0 auto;
+}
+/*分享的遮罩层*/
+#shadow_bg{
+	 display: none; 
+	  position: absolute; 
+	  top: 0%; 
+	  left: 0%;
+	  width: 100%;
+	  height: 100%;
+	  background-color:rgba(0, 0, 0, 0.9);  
+	  z-index:1001;  
+	  -moz-opacity: 0.7;  
+	  opacity:.70;  
+	  filter: alpha(opacity=70);
+}
+#share_logo{
+
+	z-index:1002;
+	background: url(http://7xp6o6.com1.z0.glb.clouddn.com/gender_test4-share-pic.png);
+	background-size: 170px 201px;
+	margin: 0 auto;
+	margin-top: 15px;
+ 	position: absolute;  
+	display: none;
+	width: 170px;
+	height: 201px;
+	right: 2%;
+
+}
+#share_title {
+	z-index:1002;
+	position: absolute;
+	margin: 0 auto;
+	width: 184px;
+	height: 96px;
+	font-size: 36px;
+	line-height: 48px;
+	display: none;
+	margin-left: 95.5px;
+    margin-top: 246.5px;
+    color:#ffffff;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>【性别测试】</title>
+	<link rel="stylesheet" href="index.css?v1">
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://sandbox-api.soundtooth.cn/game/jssdk_demo.php"></script>
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	var hm = document.createElement("script");
+	hm.src = "//hm.baidu.com/hm.js?759340738bada43a17aa8fb1392be179";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+	})();
+	//百度统计
+	</script>
+</head>
+<body>
+	<!-- 选择性别入口	 -->
+	<div class="index_cover">
+		<div class="index_title"></div>
+		<div class="index_button">
+			<div class="index_to_girl"></div>
+			<div class="index_to_boy"></div>
+		</div>		
+	</div>
+	<!-- 载入题目 -->
+	<div class="multiple_choices">
+		<div class="title_bg">
+			<span class="sequence"></span>
+			<p class="question"></p>
+		</div>
+		<div class="toCheck"></div>
+	</div>
+	<!-- 测试结果 -->
+	<div class="result_bg" display='none';>
+		<div class="result_title"></div>
+		<div class="reuslt_character"></div>
+		<div class="result_dialog"></div>
+		<div class="result_word"></div>
+		<div class="button_share">
+			<p>分享并领奖</p>
+		</div>
+	</div>
+	<!-- 点击分享后的遮罩层 -->
+	<div id="shadow_bg" ontouchstart="document.getElementById('shadow_bg').style.display='none';document.getElementById('share_logo').style.display='none';document.getElementById('share_title').style.display='none';"></div>	
+	<div class="share_logo" id="share_logo" ></div>
+	<div class="share_title" >
+		<p id="share_title" >人生很艰难 为何不分享</p>
+	</div>
+	<script src="http://libs.useso.com/js/zepto/1.1.3/zepto.min.js"></script>
+    <script src="touch.js"></script>
+    <script src="index.js?v3"></script>
+</body>
+</html>
